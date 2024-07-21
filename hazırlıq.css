@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+.esas{
+	margin: 50px;
+	width: 250px;
+	height: 200px;
+	border: 1px solid black;
+	overflow: auto;
+}
+
+.esas img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.esas img:hover{
+	scale: 1.2;
+	transition: .5s;
+}
+.a{
+	background: red!important;
+}

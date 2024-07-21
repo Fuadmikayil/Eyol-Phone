@@ -1,0 +1,148 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background:white ;
+
+}
+.bar{
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	background: white;
+	position: sticky;
+	top: 0;
+	z-index: 99999999;
+}
+.bar .bar-child{
+	width: calc(100% / 3);
+}
+
+
+.bar .child2{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.bar .child2 .logo img{
+	width: 85px;
+	height: 30px;
+	object-fit: cover;
+}
+.bar .child3 div{
+	justify-content: right;
+	align-items: right;
+	display: flex;
+}
+
+.bar .child3 .fa-solid{
+	margin-right: 10px;
+}
+
+
+.menyu{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+.menyu .menyu-child{
+	width: calc(100% / 3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 10px 0;
+	padding: 15px;
+	border-radius: 10px;
+	color: darkblue;
+
+
+}
+
+.menyu .menyu-child span{
+	font-family: sans-serif;
+}
+
+
+.menyu .menyu-child .menyu-child2{
+	background: #c1cfd6; 
+	width: 50px;
+	height: 50px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3px;
+	border-radius: 10px;
+}
+.orta .about{
+	display: block;
+	background: lightgray;
+	padding: 15px;
+	height: 80vh;
+}
+
+.orta .about h2{
+	padding:10px  5px;
+	font-family: sans-serif;
+
+}
+.orta .about span{
+	display: block;
+	margin: 5px 0;
+	padding:5px 5px ;
+	font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asagi{
+	width: 100%;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	background: darkblue;
+    border-radius: 10px 10px 0 0;
+}
+.asagi .asagi-child{
+	float: left;
+	width: calc(100% / 3);
+    color: white;
+}
+.asagi .asagi-child .asagi-child-a{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.whot a{
+	position: fixed;
+	bottom: 80px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: green;
+	right: 10px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	color: white;
+	cursor: pointer;
+}

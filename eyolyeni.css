@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background:white ;
+
+}
+.bar{
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	background: white;
+	position: sticky;
+	top: 0;
+	z-index: 99999999;
+}
+.bar .bar-child{
+	width: calc(100% / 3);
+}
+
+
+.bar .child2{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.bar .child2 .logo img{
+	width: 85px;
+	height: 30px;
+	object-fit: cover;
+}
+.bar .child3 div{
+	justify-content: right;
+	align-items: right;
+	display: flex;
+}
+
+.bar .child3 .fa-solid{
+	margin-right: 10px;
+}
+.about{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.about .melumat{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	padding: 8px;
+}
+
+.about .melumat .span1{
+	width: 40px;
+	height: 40px;
+	background: #c1cfd6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3px;
+	border-radius: 10px;
+	color: darkblue;
+}
+.about .melumat .span ion-icon{
+    font-size: 10px;
+}
+.asagi{
+	width: 100%;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	background: darkblue;
+    border-radius: 10px 10px 0 0;
+}
+.asagi .asagi-child{
+	float: left;
+	width: calc(100% / 3);
+    color: white;
+}
+.asagi .asagi-child .asagi-child-a{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.whot a{
+	position: fixed;
+	bottom: 80px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: green;
+	right: 10px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	color: white;
+	cursor: pointer;
+
+}

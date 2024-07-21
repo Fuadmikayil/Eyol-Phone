@@ -1,0 +1,213 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: darkblue;
+
+}
+.bar{
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	background: darkblue;
+	position: sticky;
+	top: 0;
+	z-index: 99999999;
+}
+.bar .bar-child{
+	width: calc(100% / 3);
+}
+
+
+.bar .child2{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.bar .child2 .logo img{
+	width: 85px;
+	height: 30px;
+	object-fit: cover;
+}
+.bar .child3 div{
+	justify-content: right;
+	align-items: right;
+	display: flex;
+}
+
+.bar .child3 .fa-solid{
+	margin-right: 10px;
+}
+.profil{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+	margin: 20px auto;
+
+}
+.menyu{
+	width: 100%;
+	display: flex;
+	padding: 10px 0;
+
+}
+
+.menyu .menyu-child{
+	width: calc(100% / 3);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 10px;
+	font-family: sans-serif;
+
+}
+.menyu .menyu-child .arxa{ 
+	width: 45px;
+	height: 45px;
+	border-radius: 10px;
+	background: #282899;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+.menyu .menyu-child span{
+	margin-top: 10px;
+}
+.menyu2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	margin-top: 20px;
+}
+
+.orta{
+	width: 100%;
+	background: white;
+	margin-top: 20px;
+}
+.orta .sira{
+	display: flex;
+	position: relative;
+	padding: 30px 0;
+}
+
+.orta .sira h2{
+	display: inline;
+
+}
+.orta .sira a{
+	position: absolute;
+	right: 10px;
+	text-decoration: none;
+}
+.orta  h2{
+	margin-left: 10px;
+}
+.orta .navbar{
+	width: 100%;
+	padding: 20px 0;
+	overflow-x: auto;
+}
+.orta .navbar::-webkit-scrollbar{
+	height: 25px;
+}
+.orta .navbar .navbar2{
+	width: 3300px;
+
+}
+
+.orta .navbar .navbar2 div{
+	width: 300px;
+	height: 150px;
+	margin: 0 2px;
+	display: inline-block;
+	background: linear-gradient(to right, darkblue , darkred);
+	border-radius: 10px;
+	position: relative;
+}
+.orta .navbar .navbar2 div h3{
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	width: 60%;
+	height: 70%;
+	color: white;
+	text-align: center;
+}
+.orta .melumat{
+	width: 100½;
+	background: lightgray;
+	margin-top: 20px;
+	height: 80vh;
+
+}
+
+.orta .melumat .melumat2{
+	padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.orta .melumat .melumat2 .melumatlar{
+	width: 200px;
+	height: 150px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background: white;
+	margin: 2px;
+	border-radius: 10px;
+	flex-direction: column;
+	gap: 10px;
+}
+.orta .asagi{
+	width: 100%;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	background: darkblue;
+    border-radius: 10px 10px 0 0;
+}
+.orta .asagi .asagi-child{
+	float: left;
+	width: calc(100% / 3);
+    color: white;
+}
+.orta .asagi .asagi-child .asagi-child-a{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+
+.orta .whot a{
+	position: fixed;
+	bottom: 80px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: green;
+	right: 10px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	color: white;
+	cursor: pointer;
+
+}
